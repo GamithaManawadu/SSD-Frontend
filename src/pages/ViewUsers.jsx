@@ -55,15 +55,15 @@ const ViewUsers = () => {
                       <td class="px-4 py-3">{user.username}</td>
                       {user.role === 'worker' ? (
                         <td class="px-4 py-3">
-                          <span class="bg-blue-100 px-2 py-1 text-blue-800 text-sm font-medium mr-2 mt-2 rounded dark:bg-blue-200 dark:text-blue-800">
+                          
                             {user.role.toUpperCase()}
-                          </span>
+                          
                         </td>
                       ) : (
                         <td class="px-4 py-3">
-                          <span class="bg-red-100 px-2 py-1 text-red-800 text-sm font-medium mr-2 mt-2 rounded dark:bg-red-200 dark:text-red-900">
+                          
                             {user.role.toUpperCase()}
-                          </span>
+                          
                         </td>
                       )}
                     </tr>

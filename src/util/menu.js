@@ -4,11 +4,11 @@ const admin = [
     link: '/admin/dashboard',
   },
   {
-    title: 'Register Users',
+    title: 'Add Employee',
     link: '/admin/register',
   },
   {
-    title: 'View Users',
+    title: 'View All Employees',
     link: '/admin/users',
   },
 ];
