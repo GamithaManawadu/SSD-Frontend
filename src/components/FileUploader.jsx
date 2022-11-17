@@ -49,7 +49,7 @@ const FileUploader = () => {
         >
           <div class="mb-6 pt-4">
             <label class="mb-5 block text-xl font-semibold text-[#07074D]">
-              Upload File
+              Upload Files
             </label>
 
             <div class="mb-8">
@@ -74,8 +74,8 @@ const FileUploader = () => {
           </div>
 
           <div>
-            <button onClick={fileUpload} class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
-              Send File
+            <button onClick={fileUpload} class="hover:shadow-form w-full rounded-md bg-[blue] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+              Save
             </button>
           </div>
         </form>

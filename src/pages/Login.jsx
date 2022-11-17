@@ -45,7 +45,7 @@ const Login = () => {
       <section className="text-gray-600 body-font h-[calc(100vh-80px)] flex items-center">
         <div className="container px-5 mx-auto flex flex-wrap items-center justify-center xl:w-2/5 lg:w-1/2 md:w-3/4 w-full">
           <div className="border-gray-100 border-2 rounded-xl p-16 flex flex-col ml-auto w-full mt-10 md:mt-0">
-            <h2 className="text-gray-900 text-2xl font-medium title-font mb-5 text-center">Welcome Back</h2>
+            <h2 className="text-gray-900 text-2xl font-medium title-font mb-5 text-center">LOGIN</h2>
             {error && <p className="text-red-500 text-sm text-center">{error}</p>}
             <div className="relative mb-4">
               <label htmlFor="username" className="leading-7 text-sm text-gray-600">
